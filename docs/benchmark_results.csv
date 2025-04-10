@@ -1,0 +1,6 @@
+,accuracy,auc_roc,f1_score,training_time,memory_usage
+Horse Racing Predictor,0.000,0.000,0.000,0.0s,0MB
+Random Forest,0.919,0.729,0.068,5.1s,0MB
+Logistic Regression,0.920,0.760,0.099,0.0s,0MB
+XGBoost,0.919,0.751,0.081,0.2s,0MB
+LightGBM,0.920,0.767,0.049,0.4s,0MB
