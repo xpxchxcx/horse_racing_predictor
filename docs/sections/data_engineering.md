@@ -95,3 +95,5 @@ The data processing pipeline includes several quality checks:
 3. **Consistency Verification**
    - Cross-references race results
    - Validates temporal sequences 
+
+🏇 Machine learning model for predicting horse racing success using physical and performance metrics. Achieves 92.2% accuracy with a hybrid Random Forest + Neural Network approach. Features comprehensive benchmarking against standard ML models. 
