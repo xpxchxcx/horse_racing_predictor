@@ -8,6 +8,7 @@ A sophisticated machine learning system for predicting horse racing success usin
 - [Overview](#overview)
 - [Features](#features)
 - [Technical Details](#technical-details)
+- [Documentation](#documentation)
 - [Benchmark Results](#benchmark-results)
 - [Data Source](#data-source)
 - [Data Engineering](#data-engineering)
@@ -421,7 +422,46 @@ We compared our Horse Racing Predictor against several standard machine learning
 2. **AUC-ROC**: LightGBM and Logistic Regression show slightly better class separation capabilities.
 3. **F1-Score**: The Horse Racing Predictor's high F1-Score indicates superior balance between precision and recall.
 
+## Documentation
 
----
+The project documentation is organized in the `docs/` directory:
 
-For more detailed analysis and examples, see [model_analysis.md](model_analysis.md).
+### Documentation Structure
+```
+docs/
+├── images/                    # Visualizations and diagrams
+│   ├── accuracy_comparison.png
+│   ├── auc_roc_comparison.png
+│   ├── confusion_matrix.png
+│   ├── f1_score_comparison.png
+│   ├── feature_importance.png
+│   ├── precision_recall.png
+│   ├── roc_curve.png
+│   └── training_history.png
+│
+└── sections/                  # Detailed documentation sections
+    ├── data_engineering.md    # Data processing and feature engineering
+    ├── model_architecture.md  # Model design and training details
+    └── model_performance.md   # Performance metrics and benchmarks
+```
+
+### Documentation Sections
+
+1. **Data Engineering** (`docs/sections/data_engineering.md`)
+   - Feature engineering process
+   - Data processing challenges and solutions
+   - Quality checks and validation
+
+2. **Model Architecture** (`docs/sections/model_architecture.md`)
+   - Neural network structure
+   - Training configuration
+   - Feature selection process
+   - Model optimization techniques
+
+3. **Model Performance** (`docs/sections/model_performance.md`)
+   - Detailed metrics and analysis
+   - Benchmark comparisons
+   - Performance visualizations
+   - Example predictions
+
+
